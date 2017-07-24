@@ -1,0 +1,27 @@
+@keyframes rainbow {
+	0% {
+		fill: #2DADD6;
+	}
+	20% {
+		fill: #E5DD46;
+	}
+}
+
+.cood-logo {
+	fill: #2DADD6;
+}
+
+
+#letter-c {
+	animation: rainbow 4s linear infinite;
+}
+#letter-o-1 {
+	animation: rainbow 4s linear infinite .2s;
+}
+#letter-o-2 {
+	animation: rainbow 4s linear infinite .4s;
+}
+#letter-d {
+	animation: rainbow 4s linear infinite .6s;
+}
+
