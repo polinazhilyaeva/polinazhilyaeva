@@ -131,8 +131,8 @@ h3{page-break-after:avoid;}
 #cv-en{background-image:url('../img/icons/pdf-icon.png');}
 @media only screen and (max-width:320px){#mail-contact,
 #facebook-contact{width:30px;height:30px;}
-#mail-contact div,
-#facebook-contact div{visibility:hidden;}
+/*#mail-contact div,
+#facebook-contact div{visibility:hidden;}*/
 #contact-message{top:18% !important;width:50% !important;}
 }
 @media only screen and (min-width:640px){#mail-contact,
