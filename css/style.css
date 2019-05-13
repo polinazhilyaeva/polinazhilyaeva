@@ -76,6 +76,11 @@ h3{page-break-after:avoid;}
 @media only screen and (min-width:1024px){#facebook-icon{display:block;opacity:1;-webkit-transition:opacity 500ms ease-out;-moz-transition:opacity 500ms ease-out;-o-transition:opacity 500ms ease-out;transition:opacity 500ms ease-out;}
 #facebook-icon:hover{opacity:0.5;}
 }
+#linkedin-icon{width:55px;height:55px;position:absolute;top:5%;right:11%;display:none;}
+#linkedin-icon img{width:100%;height:auto;}
+@media only screen and (min-width:1024px){#linkedin-icon{display:block;opacity:1;-webkit-transition:opacity 500ms ease-out;-moz-transition:opacity 500ms ease-out;-o-transition:opacity 500ms ease-out;transition:opacity 500ms ease-out;}
+#linkedin-icon:hover{opacity:0.5;}
+}
 #description{position:absolute;left:5%;bottom:5%;font-size:1em;width:40%;text-align:left;}
 #description-sm{font-size:.7em;margin-top:0;}
 @media only screen and (min-width:640px){#description{font-size:1.1em;}
