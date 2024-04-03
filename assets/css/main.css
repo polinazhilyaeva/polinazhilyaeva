@@ -146,7 +146,7 @@ svg,img { max-width: 100%; height: auto; }
 .container{ padding-left:1.25rem; padding-right: 1.25rem;  }
 .ds-header{ padding:3.75rem 0  }
 .ds-heading{font-size: 2.375rem;line-height: 4rem;}
-.ds-heading-inner{font-size: 3.375rem;line-height: 6rem;}
+.ds-heading-inner{font-size: 3.375rem;line-height: 3rem;}
 .ds-about-section .ds-heading-inner{ margin-bottom:3.75rem }
 .ds-about-section{ margin-top: 5.8125rem }
 .ds-case-studies-details .ds-tools{ margin-bottom: 1.875rem }
