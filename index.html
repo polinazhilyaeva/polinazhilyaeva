@@ -1,246 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Polina Zhilyaeva</title>
-    <meta name="description" content="Hi, there will be some information about me here, when I get to it :)">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/jquery.fullPage.css" />
-
-	<link href="https://fonts.googleapis.com/css?family=Arimo:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="img/favicons/site.webmanifest">
-	<meta name="theme-color" content="#ffffff">
-	<style>
-	    .noscript-show {
-	       	display: none;
-	    }
-	</style>
-	<noscript>
-	    <style>
-	        .noscript-hide {
-	        	display:none;
-	        }
-	        .noscript-show {
-	        	display: block;
-	        	color: #257276;
-	        	text-align: center;
-	        }
-	        .noscript-show a {
-	        	color: #257276;
-	        }
-	    </style>
-	</noscript>
-</head>
-
-<body>
-	<!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <div class="noscript-show">
-    	<h1>Hi, I'm Polina Zhilyaeva</h1>
-    	<p>To see the full content and look of my website you must enable Javascript in your browser.</p>
-    </div>
-	<header class="noscript-hide">
-	<!-- 	<nav id="myTopnav">
-			<div id="main-nav">
-				<ul id="scroll-menu">
-					<li data-menuanchor="firstPage" class="active toggle"><a href="#firstPage">home</a></li>
-					<li data-menuanchor="secondPage"><a href="#secondPage" class="toggle">about</a></li>
-					<li data-menuanchor="thirdPage"><a href="#thirdPage" class="toggle">work</a></li>
-					<li data-menuanchor="fourthPage"><a href="#fourthPage" class="toggle">contact</a></li>
-					<li class="icon">
-                        <a href="#" id="toggle-menu">
-	                        <span class="open">&#9776; menu</span>
-	                        <span class="close">&times;</span>
-                        </a>
-                    </li>
-				</ul>
-			</div>
-		</nav> -->
-	</header>
-	<main id="fullpage" class="noscript-hide">
-		<section id="home-section" class="section bg-1" data-anchor="firstPage">
-			<h1>
-        Hi, I'm Polina.<br>This site looks a bit empty, doesn't it? :)
-				<!--<a href="/" title="Polina Zhilyaeva">
-					<img id="logo" src="img/logo-text.png" alt="Polina Zhilyaeva Logo">
-				</a>-->
-			</h1>
-			<div id="facebook-icon">
-				<a href="https://www.facebook.com/polina.zhyliaieva" target="_blank">
-					<img src="img/icons/facebook-icon.png" alt="Polina Zhilyaeva Facebook Profile">
-				</a>
-			</div>
-			<div id="linkedin-icon">
-				<a href="https://www.linkedin.com/in/polinazhilyaeva" target="_blank">
-					<img src="img/icons/linkedin-icon.png" alt="Polina Zhilyaeva LinkedIn Profile">
-				</a>
-			</div>
-			<!-- <div id="polina-title">
-				<h2><span id="web-designer">web designer and</span><br><span id="developer">developer</span></h2>
-			</div> -->
-		</section>
-		<!-- <section id="about-section" class="section bg-2" data-anchor="secondPage">
-			<h3>about</h3>
-			<div id="description">
-				<p>I am a freelance web designer & developer who enjoys building websites from scratch.</p>
-				<p id="description-sm">I have a wide range of skills that include design, front-end development (HTML5, CSS3, Javascript) and back-end development (Wordpress, Genesis, PHP).</p>
-			</div>
-			<div id="skills">
-				<div class="clearfix">
-					<div id="mysql">
-						<i class="devicon-mysql-plain"></i>
-					</div>
-					<div id="php">
-						<i class="devicon-php-plain"></i>
-					</div>
-					<div id="wordpress">
-						<i class="devicon-wordpress-plain"></i>
-					</div>
-				</div>
-								
-				<div class="clearfix">
-					<div id="js">
-						<i class="devicon-javascript-plain"></i>
-					</div>
-					<div id="css3">
-						<i class="devicon-css3-plain"></i>
-					</div>
-					<div id="html5">
-						<i class="devicon-html5-plain"></i>
-					</div>
-				</div>
-
-				<div class="clearfix">
-					<div id="ps">
-						<i class="devicon-photoshop-plain"></i>
-					</div>
-					<div id="ai">
-						<i class="devicon-illustrator-plain"></i>
-					</div>
-					<div id="jquery">
-						<i class="devicon-jquery-plain-wordmark"></i>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="work-section" class="section bg-3" data-anchor="thirdPage">
-			<h3>work</h3>
-
-			<div class="slide">
-				<img class="laptop" data-src="img/travel_notebook_blue.png" src="img/travel_notebook_blue.png" alt="Travel.LAB website - laptop">
-				<div class="link-icon">
-					<a href="http://travel-lab.com.ua" target="_blank">
-						<img class="link-img" src="img/icons/link-icon.png" alt="link icon">
-						<h4>travel-lab.com.ua</h4>
-					</a>
-				</div>
-			</div>
-		    <div class="slide">
-		    	<img data-src="img/travel_tablet_blue.png" src="img/travel_tablet_blue.png" alt="Travel.LAB website - tablet">
-		    	<div class="link-icon">
-					<a href="http://travel-lab.com.ua" target="_blank">
-						<img class="link-img" src="img/icons/link-icon.png" alt="link-icon">
-						<h4>travel-lab.com.ua</h4>
-					</a>
-				</div>
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/travel_phone_blue.png" src="img/travel_phone_blue.png" alt="Travel.LAB website - phone">
-		    	<div class="link-icon">
-					<a href="http://travel-lab.com.ua" target="_blank">
-						<img class="link-img" src="img/icons/link-icon.png" alt="link-icon">
-						<h4>travel-lab.com.ua</h4>
-					</a>
-				</div>
-		    </div>
-		    <div class="slide">
-		    	<img class="laptop" data-src="img/b&f_notebook_blue.png" src="img/b&f_notebook_blue.png" alt="Business & Family website - laptop">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/b&f_phone_blue.png" src="img/b&f_phone_blue.png" alt="Business & Family website - phone">
-		    </div>
-		    <div class="slide">
-		    	<img class="laptop" data-src="img/blueberry_notebook_blue.png" src="img/blueberry_notebook_blue.png" alt="Blueberry template - laptop">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/blueberry_tablet_blue.png" src="img/blueberry_tablet_blue.png" alt="Blueberry template - phone">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/card_notebook_blue.png" src="img/card_notebook_blue.png" alt="Postcard from Heart Website - laptop">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/card_tablet_blue.png" src="img/card_tablet_blue.png" alt="Postcard from Heart Website - tablet">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/card_phone_blue.png" src="img/card_phone_blue.png" alt="Postcard from Heart Website - phone">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/yes_notebook_blue.png" src="img/yes_notebook_blue.png" alt="YeSuccess Website - laptop">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/weather_notebook_blue.png" src="img/weather_notebook_blue.png" alt="Weather Prediction - laptop">
-		    </div>
-		    <div class="slide">
-		    	<img data-src="img/weather_phone_blue.png" src="img/weather_phone_blue.png" alt="Weather Prediction - phone">
-		    </div>
-
-		</section>
-		<section id="contact-section" class="section bg-4" data-anchor="fourthPage">
-			<h3>contact</h3>
-			<div id="contact-block">
-				<div id="mail-contact">
-					<a href="mailto:zhilyaeva.polina@gmail.com" target="_blank">
-						<div>zhilyaeva.polina@gmail.com</div>
-					</a>
-				</div>
-				<div id="facebook-contact">
-					<a href="https://www.facebook.com/polina.zhyliaieva" target="_blank">
-						<div>facebook.com/polina.zhyliaieva</div>
-					</a>
-				</div>
-				<div id="cv" class="clearfix">
-					<p>Download CV</p>
-					<div id="cv-en">
-						<a href="https://www.polinazhilyaeva.com/cv/Zhilyaeva_WebDev_CV.pdf" target="_blank">
-							<div>in English</div>
-						</a>
-					</div>
-					<div id="cv-ru">
-						<a href="https://www.polinazhilyaeva.com/cv/Zhilyaeva_WebDev_CV_rus.pdf" target="_blank">
-							<div>in Russian</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			
-			<div id="contact-message">
-				<p id="contact-message-lg">Please get in touch</p>
-				<p>if you need a modern and fast website</p>
-			</div>
-		</section> -->
-
-	</main>
-
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-	<script src="js/jquery.fullPage.js"></script>
-	<script src="js/main.js"></script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-66901134-2', 'auto');
-		ga('send', 'pageview');
-
-    </script>
-</body>
+    <!-- Google Fots -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Remixicon Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Main CSS -->
+	<link href="assets/css/main.css" rel="stylesheet">
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <title>Polina Zhyliaieva 🌱 Making business growth and innovation accessible and enjoyable</title>
+  </head>
+  <body>
+    
+    <!-- main -->
+    <main class="ds-pge-wrap">
+      <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-12  col-md-12  col-lg-10  col-xl-10  col-xxl-10">
+                <!-- header -->
+                <header class="ds-header">
+                    <p class="ds-logo">Polina Zhyliaieva</p>
+					<p>Tech Entrepreneur & Ex-COO | Automation & No-Code Expert | Coach</p>
+                </header>
+                <!-- header -->
+                <!-- banner -->
+                <section class="ds-banner-section ds-content-width">
+                    <h1 class="ds-heading"><span>I make business growth<br> and innovation <br>accessible and enjoyable</span></h1>
+                    <p>Armed with a solid background in business and tech innovation, alongside my genuine belief in the transformative power of coaching, my mission is to remove the obstacles that stand in the way of the visionaries shaping our future.</p>
+                </section>
+                <!-- banner -->
+				<div class="ds-about-section text-center">
+                    <h2 class="ds-heading-inner ds-boder_text"><span>How I bring my mission to life:</span></h2>
+                    <section class="text-left ds-left-right-section" >
+                        <div class="row">
+                          <div class="col-12 col-sm-12  col-md-12  col-lg-12  col-xl-12  col-xxl-12">
+							<p class="toolset"><span>No-Code Development:</span></p>
+							<p>Since 2015 I have leveraged no-code and low-code tools such as Make, Airtable, Zapier, Xano, WeWeb, and MS Power Automate to craft customized automation solutions and MVPs. These solutions streamline workflows and empower businesses to test their ideas and scale efficiently, bypassing the limitations inherent in traditional software development.</p>
+							<p>This capability is enriched by my deep understanding of business dynamics, informed by nearly 15 years of leadership and strategic execution in senior management roles and as an entrepreneur.</p>
+							<p>Complementing this business insight is my robust technical foundation, which includes a Computer Science degree and experience in roles such as full-stack developer, project manager, and business analyst. This blend of tech expertise and business understanding uniquely positions me to bridge the gap between innovative technology solutions and strategic business growth.</p>
+							<p class="toolset"><span>Coaching:</span></p>
+							<p>Through coaching, I guide business leaders and entrepreneurs to unlock their full potential, translating their ambitious visions into tangible success. My approach is informed by real-life business leadership experiences, including navigating the complexities of business management and co-founding a company. These experiences have provided me with a practical understanding of what it takes to achieve the freedom of a balanced life, where success is measured by fulfillment, not just achievements.</p>
+							<p>Discovering the transformative power of emotional intelligence in 2013-2015 within an educational startup, I was immersed in EQ's foundational principles, shaping my future approach to coaching. My journey continued in 2020-2021 at the Institute of Metacognitive Programming, where I gained my initial coaching education and practice hours.</p>
+							<p>I'm currently undergoing ICF-standard education to earn a PCC credential this year.</p>
+                          </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+          </div>
+      </div>
+    </main>
+    <!-- main -->
+    <!-- footer -->
+    <footer class="ds-footer">
+      <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-12  col-md-12  col-lg-10  col-xl-10  col-xxl-10">
+                <section class="ds-lets_section">
+                  <h4><span>Let’s Talk</span></h4>
+                  <span>Whether you're an entrepreneur seeking growth strategies, a business leader aiming for operational efficiency, or intrigued by the potential of no-code technology, let's connect and explore how we can collaborate toward your success.</span>
+                </section>
+                <div class="ds-email_social">
+                    <a href="mailto:me@polinazhyliaieva.com" class="ds-email ds-boder_text"><span>me@polinazhyliaieva.com</span></a>
+                    <ul class="ds-social">
+                        <li><a href="https://www.linkedin.com/in/polinazhyliaieva/" target="_blank"><i class="ri-linkedin-line"></i></a></li>
+                        <li><a href="https://www.instagram.com/polina_zhyliaieva/" target="_blank"><i class="ri-instagram-line"></i></a></li>
+                    </ul>
+                </div>
+                <span class="ds-copyright">© 2024 All right reserved.<br></span>
+            </div>
+          </div>
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
